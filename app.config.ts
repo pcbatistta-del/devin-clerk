@@ -4,22 +4,38 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Lukson",
+  description:
+    "Um agente capaz de atender toda a rotina de um departamento jurídico: monitoramos processos e executamos workflows repetitivos com humano no loop.",
+  emoji: "⚖️",
+  accent: "#1e40af",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Monitoramento de processos",
+      description:
+        "Cadastrar processos pelo nº CNJ e acompanhar os andamentos automaticamente.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Alertas de prazos",
+      description: "Receber avisos de prazos processuais antes do vencimento.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Fila de aprovação",
+      description: "Revisar e aprovar cada ação do agente antes de ser executada.",
+    },
+    {
+      title: "Workflows repetitivos",
+      description:
+        "Usar modelos de fluxo prontos, como notificações e protocolos.",
+    },
+    {
+      title: "Geração de minutas",
+      description:
+        "Criar rascunhos de peças a partir dos modelos do departamento.",
+    },
+    {
+      title: "Trilha de auditoria",
+      description: "Consultar o histórico de quem aprovou o quê, e quando.",
     },
   ] satisfies Feature[],
 };
